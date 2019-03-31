@@ -1,0 +1,59 @@
+{
+  "name": "pkrn_boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for writing fullstack application using PostgreSQL, Koa, React, Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willybeans/PKRN_boilerplate.git"
+  },
+  "keywords": [
+    "PKRN",
+    "React",
+    "PostgreSQL",
+    "Koa",
+    "JavaScript"
+  ],
+  "author": "Will Wedmedyk",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/willybeans/PKRN_boilerplate/issues"
+  },
+  "homepage": "https://github.com/willybeans/PKRN_boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.1",
+    "koa-respond": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "pg": "^7.8.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.9",
+    "redux-logger": "^3.0.6",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
